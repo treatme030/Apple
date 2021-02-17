@@ -234,7 +234,7 @@ footer {
 .footer-up .notice {
     white-space: nowrap;
     padding: 17px 0 11px;
-    border-bottom: 1px solid #d2d2d7;
+    border-bottom: 1px solid rgb(210, 210, 215);
 }
 
 .footer-up .notice span {
@@ -246,6 +246,10 @@ footer {
     letter-spacing: -0.3px;
     padding-bottom: 0.8em;
     color: rgb(134, 134, 139);
+}
+
+.footer-up .notice a {
+    color: rgb(81, 81, 84);
 }
 
 .footer-menu {
@@ -303,12 +307,16 @@ footer {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    margin: 5px 0;
+}
+
+.legal-box .nation {
+    color: rgb(29, 29, 31);
 }
 
 .legal {
     display: flex;
     align-items: center;
-    margin-top: 5px;
 }
 
 .legal p {
@@ -323,17 +331,21 @@ footer {
 
 .legal ul a {
     padding-right: 8px;
-    margin: 5px 7px 0 0;
+    margin-right: 7px;
     border-right: 1px solid rgb(210, 210, 215);
-    color: rgb(134, 134, 139);
+    color: rgb(29, 29, 31);
 }
 
-.legal ul .none {
+.legal ul li:last-child a {
     border-right: none;
 }
 
 .footer-down address {
     font-style: normal;
-    margin-bottom: 20px;
+    padding-bottom: 20px;
     font-size: 11px;
+}
+
+footer a:hover {
+    text-decoration: underline;
 }
